@@ -1,0 +1,71 @@
+<!-- blog_layout.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        header, footer {
+            background: #4e1d1d;
+            color: #e7a1a1;
+            padding: 1em;
+            text-align: center;
+            width: 100%;
+        }
+        nav {
+            background: #542929;
+            color: #5a4444;
+            padding: 1em;
+            width: 100%;
+        }
+        main {
+            flex: 3;
+            padding: 1em;
+        }
+        aside {
+            flex: 1;
+            padding: 1em;
+            background: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <nav>
+        <a href="table_of_contents.html" style="color: white;">Table of Contents</a> |
+        <a href="blog_post_form.html" style="color: white;">Submit a Post</a> |
+        <a href="multimedia_blog_post.html" style="color: white;">Multimedia Post</a>
+    </nav>
+    <div class="container">
+        <main>
+            <h2>Ernest Welcomes you!!!</h2>
+            <p>If you are here today, it is not a coincidence, you are special and i love you.</p>
+        </main>
+        <aside>
+            <h3>About Ernest</h3>
+            <p>My name is Ernest Ovbiolokun and one of my passions in life is in politics. 
+                According to the Article “Art of the Possible”, Bismarck said and I quote 
+                “Politics is the art of the possible, the attainable-the art of the next best” 
+                (Bismarck, 19th century, para 3). I will say he’s right as 
+                whatever you have to give starts from the mind.</p>
+        </aside>
+    </div>
+    <footer>
+        <p>1 (416) --- ****: ernestaiyudu@yahoo.com</p>
+        <p>&copy; 2024 Ernest Blog</p>
+    </footer>
+</body>
+</html>
